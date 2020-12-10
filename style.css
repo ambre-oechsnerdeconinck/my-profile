@@ -1,0 +1,117 @@
+body {
+background-color: #f6eedf;
+color: #056676;
+font-family: 'Cormorant Garamond', serif;
+font-size: 17px;
+font-weight: bold;
+}
+
+.img-cercle {
+	border-radius: 180px;
+}
+
+.drap-cercle {
+	border-radius: 50%;
+	height: 100px;
+}
+
+.banner {
+	width: 1100px;
+	margin: 40px auto;
+} 
+
+@media (max-width: 760px) {
+	#banner {
+		width: 650px;
+	}
+}
+
+@media (max-width: 500px) {
+	#banner {
+		width: 400px;
+	}
+}
+
+.card-pale-brown {
+	background: #fffff6;
+    padding: 60px;
+    margin: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Kurale', serif;
+}
+
+h1 {
+	color: #ff7171;
+	font-weight: 700;
+	letter-spacing: 5px;
+	font-size: 40px;
+}
+
+h2 {
+	color: #5eaaa8;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: #fa9191;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #a3d2ca;
+}
+
+.pink-btn {
+	background-color: #fa9191;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.pink-btn:hover {
+	background-color: #a3d2ca;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(200; 200; 200);
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #fa9191;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+.fab fa-linkedin {
+	border-radius: 5px;
+	height: 100px;
+	width: 100px;
+}
+
+.logo-carré {
+	border-radius: 5px;
+	height: 60px;
+	width: 60px;
+
